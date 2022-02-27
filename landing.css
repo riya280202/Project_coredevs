@@ -101,6 +101,9 @@ body{
 #meetSection{
     color: #93845B;
     margin: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width:400px) {
     #meetSection{
@@ -109,7 +112,9 @@ body{
     #meetSection img{
         height: 85%;
     }
-    
+}
+.meet-center{
+    width: 100%;
 }
 #meetSection .col-md-6{
     display: flex;
@@ -128,5 +133,54 @@ body{
     #meetSection img{
         transform: rotate(10deg);
     }
-    
+}
+@media screen and (max-width:850px) {
+    .meet-center{
+        width: 100%;
+    }
+}
+
+
+
+#divineSection{
+    color: #93845B;
+    margin: 2rem 5rem;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#divineSection .landingHeading{
+    text-align: center;
+}
+
+
+#placeholderSection{
+    margin: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.placeholders{
+    visibility: hidden;
+}
+
+#footerSection{
+    margin: 5rem 0rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.footerContent{
+    background-color: #111111;
+    color: #93845B;
+    text-align: center;
+    padding: 3rem 1rem;
+    font-size: 20px;
+    line-height: 2rem;
 }
