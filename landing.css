@@ -11,6 +11,34 @@ body{
     color:  #000;
     background-color: #E5E5E5;
 }
+.banner-image {
+    background-image: url('images/landing.png');
+    background-size: cover;
+}
+.content h1{
+    font-size: 7rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+#aboutSection{
+    color: #93845B;
+    margin: 1rem 5rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutSection img{
+    height: 90%;
+    width: 70%;
+    border: 6px solid white;
+    border-radius: 7px;
+}
+@media screen and (min-width: 850px) {
+    #aboutSection img{
+        transform: rotate(16deg);
+        position: relative;
+        top: -4rem;
+    }
+}
 #joinSection, #courseSection{
     background-color: #000;
     display: flex;
@@ -106,17 +134,17 @@ body{
     align-items: center;
 }
 @media screen and (max-width:400px) {
-    #meetSection{
+    #meetSection, #aboutSection{
         margin: 2rem;
     }
-    #meetSection img{
+    #meetSection img, #aboutSection img{
         height: 85%;
     }
 }
 .meet-center{
     width: 100%;
 }
-#meetSection .col-md-6{
+#meetSection .col-md-6, #aboutSection .col-md-6{
     display: flex;
     flex-direction: column;
     justify-content: center;
