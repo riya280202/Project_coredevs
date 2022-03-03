@@ -11,13 +11,65 @@ body{
     color:  #000;
     background-color: #E5E5E5;
 }
+
+
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #E5E5E5;
+        margin-top: 1.8rem;
+    }
+    .nav-item{
+        margin-top: 0.5rem;
+    }
+}
+.navbar-solid{
+    background-color: #E5E5E5;
+}
+.nav-link:hover{
+    padding-bottom: 0;
+    color: #665832 !important;
+}
+.nav-link::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: #665832;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover::after{
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: #665832;
+    display: block;
+}
 .banner-image {
     background-image: url('images/landing.png');
     background-size: cover;
 }
-.content h1{
-    font-size: 7rem;
+.content-part{
+    text-align: center;
     font-family: 'Cormorant Garamond', serif;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 7rem;
+}
+@media screen and (max-width: 600px) {
+    .content-part{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .content-part{
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
 }
 #aboutSection{
     color: #93845B;
@@ -39,7 +91,15 @@ body{
         top: -4rem;
     }
 }
-#joinSection, #courseSection{
+#joinSection{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0rem;
+}
+#courseSection{
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -53,13 +113,9 @@ body{
     font-size: 4.5rem;
     font-weight: 400;
     line-height: 4rem;
-    margin: 2rem 0.6rem;
+    margin: 4.5rem 0.6rem 1rem;
 }
-@media screen and (max-width: 450px) {
-    .landingHeading{
-        font-size: 3.5rem;
-    }
-}
+
 .container-fluid{
     width: 70%;
 }
@@ -71,9 +127,13 @@ body{
 }
 .card{
     margin: 1rem 0rem;
+    box-shadow: 0 -2px 6px rgba(187, 168, 168, 0.815);
 }
 .join{
-    padding: 1rem 0 3rem;
+    padding: 0rem 0 3rem;
+}
+.course .row{
+    margin-top: 3rem;
 }
 @media screen and (max-width: 767px) {
     .card{
@@ -84,6 +144,16 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+}
+@media screen and (min-width:767px) {
+    .card-1{
+        position: relative;
+        top: 50px;
+    }
+    .card-3{
+        position: relative;
+        bottom: 50px;
     }
 }
 @media screen and (max-width: 436px) {
@@ -103,44 +173,33 @@ body{
     background-color: #181818;
     color: #fff;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.2rem;
     font-family: 'Cormorant Garamond', serif;
     width: 100%;
 }
-.courseNumber{
-    color: #b99531;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 8rem;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0 !important;
-    margin: 0 !important;
+#joinSection .card:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in;
+    position: relative;
+    top: 10px;
 }
-
-
-
-
-
-
+#courseSection .card:hover{
+    opacity: 0.5;
+    transition: 0.2s ease-in;
+    position: relative;
+    transform: translate(-5px, -5px);
+}
 
 
 
 #meetSection{
     color: #93845B;
-    margin: 2rem 5rem;
+    margin: 1rem 5rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-@media screen and (max-width:400px) {
-    #meetSection, #aboutSection{
-        margin: 2rem;
-    }
-    #meetSection img, #aboutSection img{
-        height: 85%;
-    }
-}
+
 .meet-center{
     width: 100%;
 }
@@ -156,19 +215,23 @@ body{
     border: 6px solid black;
     border-radius: 7px;
 }
-
-@media screen and (min-width: 850px) {
-    #meetSection img{
-        transform: rotate(10deg);
-    }
+.meetButton{
+    background-color: #93845B;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: 1px solid #93845B;
+    margin-top: 2rem;
 }
-@media screen and (max-width:850px) {
-    .meet-center{
-        width: 100%;
-    }
-}
+.meetButton:hover, .meetButton:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em #93845B ;
+    transform: translateY(-0.25em);
+    color: #000;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+  }
 
 
+/* divine section */
 
 #divineSection{
     color: #93845B;
@@ -184,7 +247,7 @@ body{
     text-align: center;
 }
 
-
+/* placeholder */
 #placeholderSection{
     margin: 5rem 5rem;
     display: flex;
@@ -196,6 +259,9 @@ body{
     visibility: hidden;
 }
 
+
+
+/* footer */
 #footerSection{
     margin: 5rem 0rem 0;
     display: flex;
@@ -211,4 +277,33 @@ body{
     padding: 3rem 1rem;
     font-size: 20px;
     line-height: 2rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .landingHeading{
+        font-size: 3.3rem;
+    }
+    #divineSection .landingHeading, #placeholderSection .landingHeading{
+        font-size: 2.8rem;
+        line-height: 2.5rem;
+    }
+}
+@media screen and (min-width: 850px) {
+    #meetSection img{
+        transform: rotate(10deg);
+    }
+}
+@media screen and (max-width:850px) {
+    .meet-center{
+        width: 100%;
+    }
+}
+@media screen and (max-width:400px) {
+    #meetSection, #aboutSection{
+        margin: 2rem;
+    }
+    #meetSection img, #aboutSection img{
+        height: 85%;
+    }
 }
