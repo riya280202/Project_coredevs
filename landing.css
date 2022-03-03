@@ -84,6 +84,12 @@ body{
     border: 6px solid white;
     border-radius: 7px;
 }
+
+
+
+ 
+
+
 @media screen and (min-width: 850px) {
     #aboutSection img{
         transform: rotate(16deg);
@@ -179,7 +185,7 @@ body{
 }
 #joinSection .card:hover{
     opacity: 0.5;
-    transition: 0.2s ease-in;
+    transition: 0.2s ease-in-out;
     position: relative;
     top: 10px;
 }
@@ -211,7 +217,8 @@ body{
 
 }
 #meetSection img{
-    height: 70%;
+    margin-top: 1rem;
+    height: 80%;
     border: 6px solid black;
     border-radius: 7px;
 }
@@ -220,7 +227,13 @@ body{
     color: #fff;
     padding: 0.5rem 2rem;
     border: 1px solid #93845B;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(161, 152, 152, 0.788);
+}
+.meetButton i{
+    font-size: 1rem;
+    margin-left: 0.4rem;
 }
 .meetButton:hover, .meetButton:focus{
     box-shadow: 0 0.5em 0.5em -0.4em #93845B ;
