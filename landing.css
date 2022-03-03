@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -194,6 +195,23 @@ body{
     transition: 0.2s ease-in;
     position: relative;
     transform: translate(-5px, -5px);
+}
+.courseNumber{
+    color: #aa996b;
+    font-size: 6rem;
+    position: absolute;
+    right: -47px;
+    top: -70px;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+}
+#courseSection img{
+    z-index: 2;
+}
+#courseSection .card{
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin-top: 2.3rem;
 }
 
 
