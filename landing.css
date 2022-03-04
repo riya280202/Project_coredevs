@@ -311,8 +311,11 @@ body{
     padding: 3rem 1rem;
     font-size: 20px;
     line-height: 2rem;
+    widows: 100vw;
 }
-
+#footerSection .landingHeading{
+    margin:  2rem 0.6rem 2rem;;
+}
 
 @media screen and (max-width: 600px) {
     .landingHeading{
