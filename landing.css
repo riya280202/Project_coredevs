@@ -188,18 +188,45 @@ body{
     width: 100%;
     z-index: 2;
 }
-#joinSection .card:hover{
-    opacity: 0.5;
+/* #joinSection .card1:hover{
     transition: 0.2s ease-in-out;
-    position: relative;
-    top: 10px;
 }
-#courseSection .card:hover{
+#joinSection .card */
+
+
+
+.card {
+    transition: all .2s ease-in-out;
+  }
+  
+  #courseSection:hover .card {
     opacity: 0.5;
-    transition: 0.2s ease-in;
+  }
+  
+  #courseSection:hover .card:hover {
+    opacity: 1;
+  }
+  #joinSection:hover .card {
+    opacity: 0.5;
+    
+  }
+  
+  #joinSection:hover .card:hover {
+    opacity: 1;
     position: relative;
-    transform: translate(-5px, -5px);
+    bottom: 3px;
+  }
+
+/* #courseSection .card-1:hover{
+    transition: all 0.2s ease-in;
 }
+#courseSection .card-2 ~ .card-1:hover{
+    opacity: 0.5;
+}
+#courseSection .card-3 ~ .card-1:hover{
+    opacity: 0.5;
+} */
+
 .courseNumber{
     color: #aa996b;
     font-size: 6rem;
