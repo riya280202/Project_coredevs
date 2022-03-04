@@ -53,6 +53,13 @@ body{
     background-image: url('images/landing.png');
     background-size: cover;
 }
+@media screen and (max-width:450px) {
+    .banner-image {
+        background-image: url('images/landings.png');
+        background-size: cover;
+    }
+    
+}
 .content-part{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
