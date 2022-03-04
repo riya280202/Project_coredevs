@@ -86,7 +86,9 @@ body{
     border-radius: 7px;
     box-shadow: 0px 6px 5px #ccc;
 }
-
+#aboutSection .landingHeading{
+    margin-top: 1rem !important;
+}
 
 
  
@@ -308,15 +310,17 @@ body{
     background-color: #111111;
     color: #93845B;
     text-align: center;
-    padding: 3rem 1rem;
-    font-size: 20px;
+    padding: 2rem 1rem;
+    font-size: 25px;
     line-height: 2rem;
-    widows: 100vw;
+    width: 100%;
 }
 #footerSection .landingHeading{
     margin:  2rem 0.6rem 2rem;;
 }
-
+.social-media a{
+    font-size: 2rem;
+}
 @media screen and (max-width: 600px) {
     .landingHeading{
         font-size: 3.3rem;
