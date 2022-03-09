@@ -219,6 +219,16 @@ body{
     height: 30rem;
     margin: 1rem auto;
 }
+@media screen and (max-width:690px) {
+    .carouselContainer{
+        height: 40rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .carouselContainer{
+        height: 48rem;
+    }
+}
 .carouselcontent{
     color: #E5E5E5;
     margin: auto 1rem;
