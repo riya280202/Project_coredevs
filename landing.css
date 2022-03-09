@@ -226,7 +226,7 @@ body{
 }
 @media screen and (max-width:400px) {
     .carouselContainer{
-        height: 48rem;
+        height: 50rem;
     }
 }
 .carouselcontent{
