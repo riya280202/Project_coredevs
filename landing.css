@@ -92,7 +92,7 @@ body{
     background-color: #665832;
     display: block;
 }
-.banner-image {
+#home .banner-image {
     background-image: url('images/landing.png');
     background-size: cover;
 }
@@ -193,6 +193,39 @@ body{
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
+}
+.HeadingCenter{
+    text-align: center;
+}
+.courseSec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 1.5rem;
+}
+.courseSec1 img{
+    height: 25rem;
+}
+.courseSec2{
+    margin-top: 2rem;
+}
+.carouselContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 30rem;
+    margin: 1rem auto;
+}
+.carouselcontent{
+    color: #E5E5E5;
+    margin: auto 1rem;
+}
+
+.carousel-item img{
+    height: 20rem;
 }
 .landingHeading{
     font-family: 'Cormorant Garamond', serif;
@@ -415,7 +448,7 @@ body{
     background-color: #111111;
     color: #93845B;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
     font-size: 25px;
     line-height: 2rem;
     width: 100%;
