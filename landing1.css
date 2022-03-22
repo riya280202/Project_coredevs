@@ -251,6 +251,7 @@ body{
     height: 28rem;
     border: 6px solid #f3f0e9;
     border-radius: 10px;
+    margin: auto;
 }
 #joinSection button{
     background-color: #f3f0e9;
@@ -286,7 +287,6 @@ body{
     }
     #joinSection img{
         height: auto;
-        margin: auto;
     }
 }
 @media screen and (min-width:700px) {
@@ -308,7 +308,7 @@ body{
 }
 .magnetic img{
     border-color: #000 !important;
-    margin-top: 1.3rem;
+    margin-top: 1.3rem !important;
 }
 
 
