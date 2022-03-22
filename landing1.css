@@ -70,7 +70,9 @@ body{
     background-color: #665832;
     display: block;
 }
-
+.text-dark{
+    font-weight: 600;
+}
 
 /* banner section */
 #home .banner-image {
@@ -118,6 +120,68 @@ body{
 .content-2 span{
     text-decoration: underline;
     margin-top: 5rem;
+}
+
+/* meet section */
+#meetSection{
+    padding-top: 2rem;
+}
+.meetImages{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+.meetImage{
+    border: 6px solid #000;
+    margin: 0 1.5rem;
+}
+@media screen and (min-width:900px) {
+    .meetImage3{
+        margin-left: 8.2rem;
+    }
+}
+@media screen and(min-width:700px) and (max-width:900px) {
+    .meetImage3{
+        margin-left: 6rem;
+    }
+
+}
+@media screen and(min-width:550px) and (max-width:700px) {
+    .meetImage3{
+        margin-left: 4.5rem;
+    }
+
+}
+@media screen and (min-width:550px) {
+    .meetImage img{
+        height: 28rem;
+    }
+    .meetImage2 img{
+        height: 24rem;
+    }
+    .meetImage3 img{
+        height: 24rem;
+    }
+    .meetImage1{
+        border-left: 0;
+        margin-left: 0;
+    }
+    .meetImage4{
+        border-right: 0;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:550px) {
+    .meetImages{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .meetImage{
+        max-width: 20rem;
+        margin-top: 1.5rem;
+    }
 }
 
 
@@ -202,6 +266,9 @@ body{
     }
     .tcard_desc{
         height: auto;
+    }
+    .t_card{
+        max-width: 20rem;
     }
 }
 .project_overlay{
