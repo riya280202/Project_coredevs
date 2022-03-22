@@ -18,7 +18,7 @@ body{
     color: #93845B;
     font-size: 4.5rem;
     font-weight: 400;
-    line-height: 4rem;
+    line-height: 3.5rem;
     padding: 2rem 0.6rem;
     text-align: center;
 }
@@ -121,6 +121,36 @@ body{
 }
 
 
+/* divinef section */
+#divineFSection{
+    background-color: #000;
+    color: #F3F0E9;
+    padding: 2rem 5rem;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divCard{
+    border: 5px solid #f3f0e9;
+}
+.divContent button{
+    width: 100%;
+    background-color: #000;
+    color: #f3f0e9;
+    padding: 0.5rem 0;
+    font-size: 1.4rem;
+
+}
+@media screen and (max-width:500px) {
+    .divContent button{
+        font-size: 1rem;
+    }    
+}
+
 
 /* testimonials Section */
 #testimonialsSection{
@@ -211,7 +241,7 @@ body{
 }
 @media screen and (max-width:400px) {
     .project_description{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }  
 }
 /* footer section */
