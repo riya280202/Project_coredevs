@@ -125,67 +125,87 @@ body{
 /* meet section */
 #meetSection{
     padding-top: 2rem;
+    position: relative;
 }
 .meetImages{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.meetImage img{
-    height: 10rem;
-}
-/* .meetImage{
+.meetImage{
     border: 6px solid #000;
-    margin: 0 1.5rem;
 }
-@media screen and (min-width:900px) {
-    .meetImage3{
-        margin-left: 8.2rem;
-    }
-}
-@media screen and(min-width:700px) and (max-width:900px) {
-    .meetImage3{
-        margin-left: 6rem;
-    }
-
-}
-@media screen and(min-width:550px) and (max-width:700px) {
-    .meetImage3{
-        margin-left: 4.5rem;
-    }
-
-}
-@media screen and (min-width:550px) {
+@media screen and (min-width:650px) {
     .meetImage img{
-        height: 28rem;
+        height: 17rem;
     }
-    .meetImage2 img{
-        height: 24rem;
-    }
-    .meetImage3 img{
-        height: 24rem;
+    .meetImage2 img, .meetImage3 img{
+        height: 14rem;
     }
     .meetImage1{
+        position: absolute;
+        left: 0;
         border-left: 0;
-        margin-left: 0;
     }
     .meetImage4{
+        position: absolute;
+        right: 0;
         border-right: 0;
-        margin-right: 0;
+    }
+    .meetImage2{
+        position: absolute;
+        left: 25%;
+    }
+    .meetImage3{
+        position: absolute;
+        right: 25%;
+    }
+    #aboutSection{
+        margin-top: 20rem;
+        padding-top: 2.3rem;
     }
 }
-@media screen and (max-width:550px) {
+@media screen and (min-width:900px){
+    .meetImage img{
+        height: 22rem;
+    }
+    .meetImage2 img, .meetImage3 img{
+        height: 18rem;
+    }
+    #aboutSection{
+        margin-top: 25rem;
+        padding-top: 2.3rem;
+    }
+}
+@media screen and (min-width:1100px){
+    .meetImage img{
+        height: 26rem;
+    }
+    .meetImage2 img, .meetImage3 img{
+        height: 22rem;
+    }
+    #aboutSection{
+        margin-top: 32rem;
+        padding-top: 2.3rem;
+    }
+}
+@media screen and (max-width:650px) {
     .meetImages{
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
     }
     .meetImage{
+        margin: 1rem;
         max-width: 20rem;
-        margin-top: 1.5rem;
     }
-} */
+}
 
+
+/* about section */
+#aboutSection{
+    padding-top: 3rem;
+}
 
 /* divinef section */
 #divineFSection{
