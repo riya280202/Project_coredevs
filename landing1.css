@@ -204,7 +204,25 @@ body{
 
 /* about section */
 #aboutSection{
-    padding-top: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.content{
+    padding-left: 5vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    width:20rem;
 }
 
 /* divinef section */
