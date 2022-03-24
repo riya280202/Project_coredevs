@@ -199,7 +199,7 @@
       
 
         <div class="magnetic">
-          Life section
+          <!-- Life section -->
       <div class="section" id="waitingLife">
         <div class="landingHeading mt">
             THE LIFE THAT'S <br> WAITING FOR YOU
@@ -213,6 +213,37 @@
                   </p>
             </div>
         </div>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slider-card">
+            <div class="slider-image"><img src="images/slider 8.jpg" alt=""></div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 2.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 3.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 4.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 5.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 6.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images/slider 7.jpg" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
     </div>
         <div class="row__">
             <div class="col-md-6__">
@@ -298,5 +329,25 @@ Your goddess tribe awaits you.
           }
         });
       </script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+              rotate: 10,
+              stretch: 0,
+              depth: 100,
+              modifier: 2,
+              slideShadows: true,
+            },
+            // pagination: {
+            //   el: ".swiper-pagination",
+            // },
+            loop: true,
+          });
+        </script>
 </body>
 </html>

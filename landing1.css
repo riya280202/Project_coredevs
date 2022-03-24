@@ -367,7 +367,42 @@ body{
         height: 22rem;
     }
 }
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 215px;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+.slider-card{
+    display: flex;
+    /* padding: 1rem 1rem; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .slider-image{
+    width: 200px;
+} */
+.slider-content{
+    padding: auto;
+}
+.swiper-slide img{
+    transform: rotate(0) !important;
+    height: auto !important;
+    box-shadow: 0 !important;
+    border: 4px solid black !important;
+    margin-top: 0 !important;
+}
 .magnetic{
     color:  #000;
     background-color: #E5E5E5;
@@ -376,7 +411,7 @@ body{
 }
 .magnetic img{
     border-color: #000 !important;
-    margin-top: 1.3rem !important;
+    margin-top: 1.3rem;
 }
 
 
