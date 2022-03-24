@@ -124,7 +124,7 @@ body{
 
 /* meet section */
 #meetSection{
-    padding-top: 2rem;
+    padding-top: 4rem;
     position: relative;
 }
 .meetImages{
@@ -216,7 +216,7 @@ body{
 
 /* about section */
 #aboutSection{
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 2rem;
 }
 .content{
@@ -241,7 +241,7 @@ body{
 #divineFSection{
     background-color: #000;
     color: #F3F0E9;
-    padding: 2rem 5rem;
+    padding: 4rem 5rem;
     /* width: 80%; */
     display: flex;
     flex-direction: column;
@@ -274,7 +274,7 @@ body{
 
 /* join section */
 #joinSection{
-    padding-top: 2rem;
+    padding-top: 4rem;
     background-color: #000;
     color: #F3F0E9;
 }
