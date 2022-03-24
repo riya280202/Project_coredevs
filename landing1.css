@@ -358,7 +358,7 @@ body{
 .t_cards{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 1rem 5rem;
 }
 .t_card{
@@ -390,9 +390,11 @@ body{
         margin: 0.4rem 1rem;
     }
 }
+
 @media screen and (max-width:620px) {
     .t_cards{
         flex-direction: column;
+        align-items: center;
         padding: 0.7rem 2rem;
     }
     .tcard_desc{
@@ -438,6 +440,11 @@ body{
 @media screen and (max-width:950px) and (min-width:620px) {
     .project_description{
         font-size: 0.6rem;
+    }  
+}
+@media screen and (min-width:950px) and (max-width:1200px) {
+    .project_description{
+        font-size: 0.8rem;
     }  
 }
 @media screen and (max-width:400px) {
