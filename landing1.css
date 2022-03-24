@@ -326,6 +326,21 @@ body{
     width: 50%;
     padding: 0.5rem 2rem;
 }
+.wlImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.cnt{
+    padding: 0 !important;
+    margin: 0 !important;
+    width:80%;
+    text-align: center;
+    overflow: hidden;
+}
 @media screen and (max-width:600px) {
     .row__{
         flex-direction: column;
