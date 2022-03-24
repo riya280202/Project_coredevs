@@ -94,6 +94,10 @@ a{
     }
 }
 
+.navbar{
+    width: 100vw !important;
+}
+
 /* navbar */
 @media screen and (max-width:992px) {
     .navbar-nav{
