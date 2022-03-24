@@ -108,7 +108,7 @@ body{
         font-size: 0.8rem;
     }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 570px) {
     .content-part{
         font-size: 3.5rem;
         line-height: 3.5rem;
@@ -118,8 +118,10 @@ body{
     }
 }
 .content-2 span{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    /* font-family: 'Cormorant Garamond', serif; */
     margin-top: 5rem;
+    font-weight: 700;
 }
 
 /* meet section */
