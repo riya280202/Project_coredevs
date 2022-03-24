@@ -317,6 +317,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 3rem;
 }
 .col-md-6__{
     display: flex;
@@ -377,6 +378,7 @@ body{
     border-color: #000 !important;
     margin-top: 1.3rem !important;
 }
+
 
 
 /* testimonials Section */
