@@ -9,8 +9,14 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
         <link rel="stylesheet" href="landing1.css">
         <script src="https://kit.fontawesome.com/712095325a.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     </head>
 <body>
+  <script>
+    AOS.init();
+  </script>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-2">
         <div class="container">
           <a class="navbar-brand text-dark" href="#">LALA SOL</a>
@@ -60,7 +66,7 @@
           class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
         >
           <div class="content">
-            <div class="content-part">HOLISTIC <br> NEW EARTH</div>
+            <div class="content-part" data-aos="zoom-in-up" data-aos-duration="500">HOLISTIC <br> NEW EARTH</div>
           </div>
         </div>
         <div class="content-2">
@@ -71,7 +77,7 @@
 
       <!-- meet section -->
       <div id="meetSection">
-        <div class="landingHeading">
+        <div class="landingHeading" data-aos="fade-up"     data-aos-duration="1000">
             MEET LALASOL
           </div>
           <div class="meetImages">
@@ -96,7 +102,7 @@
       <!-- about section -->
       <div id="aboutSection">
         
-        <div class="landingHeading">
+        <div class="landingHeading" data-aos="fade-up"     data-aos-duration="1000">
             ABOUT LALASOL
           </div>
           <div class="content">
@@ -142,7 +148,7 @@
 
       <!-- divinine feminine section -->
       <div class="section" id="divineFSection" data-label="Divine">
-        <div class="landingHeading">
+        <div class="landingHeading" data-aos="fade-up"     data-aos-duration="1000">
           DIVINE FEMININE EMBODIMENT
         </div>
         <div class="row">
@@ -189,9 +195,11 @@
                 <img src="images/join.png" alt="" class="img-fluid">
             </div>
         </div>
-      </div>
 
-      <!-- Life section -->
+      
+
+        <div class="magnetic">
+          Life section
       <div class="section" id="waitingLife">
         <div class="landingHeading mt">
             THE LIFE THAT'S <br> WAITING FOR YOU
@@ -206,8 +214,6 @@
             </div>
         </div>
     </div>
-
-        <div class="magnetic">
         <div class="row__">
             <div class="col-md-6__">
                 <div class="landingHeading1">
@@ -230,6 +236,7 @@ Your goddess tribe awaits you.
             </div>
         </div>
     </div>
+      </div>
 
       <!-- testimonials section -->
       <div id="testimonialsSection">
