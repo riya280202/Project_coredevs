@@ -180,7 +180,7 @@ a{
         line-height: 5rem;
     }
     .content-2{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 570px) {
@@ -204,97 +204,22 @@ a{
     padding-top: 4rem;
     position: relative;
     background-color: #111;
-    padding-bottom: 8rem;
+    padding-bottom: 15rem;
 }
 #meetSection .landingHeading{
     padding-bottom: 5rem;
 }
-.meetImages{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.meetImage{
-    border: 6px solid #000;
-}
-@media screen and (min-width:700px) {
-    .meetImage img{
-        height: 17rem;
-    }
-    .meetImage2 img, .meetImage3 img{
-        height: 14rem;
-    }
-    .meetImage1{
-        position: absolute;
-        left: 0;
-        border-left: 0;
-    }
-    .meetImage4{
-        position: absolute;
-        right: 0;
-        border-right: 0;
-    }
-    .meetImage2{
-        position: absolute;
-        left: 25%;
-    }
-    .meetImage3{
-        position: absolute;
-        right: 25%;
-    }
-    /* #aboutSection{
-        margin-top: 20rem;
-        padding-top: 2.3rem;
-    } */
-    #meetSection button{
-        margin-top: 19rem;
-    }
-}
-@media screen and (min-width:950px){
-    .meetImage img{
-        height: 22rem;
-    }
-    .meetImage2 img, .meetImage3 img{
-        height: 18rem;
-    }
-    /* #aboutSection{
-        margin-top: 25rem;
-        padding-top: 2.3rem;
-    } */
-    #meetSection button{
-        margin-top: 22rem;
-    }
-}
-@media screen and (min-width:1100px){
-    .meetImage img{
-        height: 26rem;
-    }
-    .meetImage2 img, .meetImage3 img{
-        height: 22rem;
-    }
-    /* #aboutSection{
-        margin-top: 32rem;
-        padding-top: 2.3rem;
-    } */
-    #meetSection button{
-        margin-top: 25rem;
-    }
-}
-@media screen and (max-width:700px) {
-    .meetImages{
+@media screen and (max-width:500px) {
+    #meetSection .row{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-    .meetImage{
-        margin: 1rem;
-        max-width: 20rem;
-    }
-    #meetSection button{
-        margin-top: 2rem;
+    #meetSection{
+        padding-bottom: 11rem;
     }
 }
-
+#drag-container{
+    padding-bottom: 7rem;
+}
 
 /* about section */
 #aboutSection{
