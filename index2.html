@@ -8,12 +8,13 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
         <link rel="stylesheet" href="landing1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/712095325a.js" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     </head>
-<body>
+<body >
   <script>
     AOS.init();
   </script>
@@ -61,7 +62,7 @@
         </div>
       </nav>
       <!-- Banner Image  -->
-      <div class="section" id="home" data-label="Home"> 
+      <div class="section" id="home"  data-label="Home"> 
         <div
           class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
         >
@@ -80,7 +81,18 @@
         <div class="landingHeading" data-aos="fade-up"     data-aos-duration="1000">
             MEET LALASOL
           </div>
-          <div class="meetImages">
+          <div id="drag-container">  
+            <div id="spin-container">  
+             
+             <img src="images/meet1.jpg" alt="">  
+             <img src="images/meet2.jpg" alt="">  
+             <img src="images/meet3.jpg" alt="">  
+             <img src="images/meet4.jpg" alt="">   
+            </div>  
+            <div id="ground" style="max-width:100vw"></div>  
+           </div> 
+
+          <!-- <div class="meetImages">
               <div class="meetImage meetImage1" data-aos="fade-down"     data-aos-duration="1000">
                   <img src="images/meet1.jpg" alt="" class="img-fluid">
               </div>
@@ -93,10 +105,10 @@
             <div class="meetImage meetImage4" data-aos="fade-down"     data-aos-duration="1000">
                 <img src="images/meet4.jpg" alt="" class="img-fluid">
             </div>
-          </div>
-          <div class="button" data-aos="zoom-in-down" data-aos-duration="1000">
+          </div> -->
+          <!-- <div class="button" data-aos="zoom-in-down" data-aos-duration="1000">
             <button>Learn more about Lalasol</button>
-            </div>
+            </div> -->
       </div>
       
       <!-- about section -->
@@ -140,7 +152,9 @@
             </div>
           </div>
             <div class="button" data-aos="fade-down" data-aos-duration="1000">
-              <button>Learn more about Lala Sol</button> 
+              <a href="https://www.instagram.com/iamlalasol/" target="_blank">
+              <button>Learn more about Lala Sol</button>
+              </a> 
               </div>
             
             
@@ -168,7 +182,9 @@
           <div class="col-md-6">
               <div class="divCard" data-aos="fade-down"     data-aos-duration="1000">
             <div class="divImage ratio ratio-16x9" ><iframe src="https://www.youtube.com/embed/lBPRhaJ29Gs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-            <div class="divContent"><button>Learn more about Lala Sol</button> </div>
+            <div class="divContent">
+              
+              <a href="https://www.instagram.com/iamlalasol/" target="_blank"><button> Learn more about Lala Sol </button></a>  </div>
             </div>
           </div>
         </div>
@@ -257,7 +273,9 @@ So lovely, what are you waiting for? <br>
 Join the revolution of women stepping up to claim their dream life. <br>
 Your goddess tribe awaits you.
 <div class="col-md-12">
+  <a href="http://magnetic.lalasol.co" target="_blank">
 <button>JOIN</button>
+</a>
 </div>
 
                 </div>
@@ -313,7 +331,9 @@ Your goddess tribe awaits you.
         </div>
         <div class="landingHeading" style="margin-bottom: 1rem;">
           LALASOL
-        </div>
+          <br>
+          <i class="fa fa-instagram" style="font-size:3rem;color:#93845B"></i>
+          <i class="fa fa-envelope" style="font-size:3rem;color:#93845B"></i>        </div>
       </div>
 
 
@@ -349,5 +369,6 @@ Your goddess tribe awaits you.
             loop: true,
           });
         </script>
+        <script src="carousel.js"></script>
 </body>
 </html>
