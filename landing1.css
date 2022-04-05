@@ -170,6 +170,7 @@ a{
     color: #323232;
 }
 .content-2{
+    color: #f3f0e9;
     position: absolute;
     bottom: 0;
     margin: 0 2rem 2rem;
@@ -649,7 +650,7 @@ a{
     position: absolute;  
     left: 0;  
     top: 0;  
-    width: 100%;  
+    width: 75%;  
     height: 100%;  
     line-height: 200px;  
     font-size: 50px;  
