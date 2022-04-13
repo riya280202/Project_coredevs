@@ -74,7 +74,11 @@ a{
     transition: all 0.5sec;
 }
 
-
+@media screen and (max-width:400px) {
+    #home .btn{
+        width: 80vw;
+    }
+}
 
 .landingHeading{
     font-family: 'Cormorant Garamond', serif;
