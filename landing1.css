@@ -173,24 +173,24 @@ a{
     justify-content: center;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: 400;
     color: #323232;
 }
 .content-2{
     color: #323232;
     font-size:1.5rem;
-    text-align: center;
+    text-align: left;
 }
 .mi{
-    width: 60%;
+    width: 40%;
 }
 @media screen and (max-width: 700px) {
     .content-part{
         font-size: 1.5rem;
     }
     .content-2{
-        /* font-size: 1rem; */
+        text-align: center;
     }
     .mi{
         width: 100%;
