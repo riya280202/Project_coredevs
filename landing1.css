@@ -183,7 +183,8 @@ a{
     text-align: left;
 }
 .mi{
-    width: 40%;
+    width: 45%;
+    margin-left: 10rem;
 }
 @media screen and (max-width: 700px) {
     .content-part{
@@ -194,6 +195,7 @@ a{
     }
     .mi{
         width: 100%;
+        margin:0;
     }
 }
 @media screen and (max-width: 570px) {
@@ -291,7 +293,20 @@ a{
     border-bottom: 5px solid #f3f0e9;
 }
 
-
+.supportContent{
+    padding-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10rem;
+    letter-spacing: 1px;
+}
+@media screen and (max-width:700px) {
+    .supportContent{
+        margin: 0;
+    }
+}
 
 /* join section */
 #joinSection{
