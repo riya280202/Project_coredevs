@@ -21,7 +21,7 @@ body{
 
 @media screen and (max-width:450px) {
     .banner-video {
-        background-image: url('images/landings.png');
+        background-image: url('images/IMG_0610.jpg');
         background-size: cover;
     }
 }
@@ -157,7 +157,7 @@ a{
 
 /* banner section */
 #home .banner-image {
-    background-image: url('images/landing.png');
+    background-image: url('images/landing1.jpgFmi');
     background-size: cover;
     background-attachment: fixed;
 }
