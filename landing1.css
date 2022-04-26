@@ -14,14 +14,14 @@ body{
     overflow-x: hidden;
 }
 .banner-video {
-    background-image: url('images/landing.png');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/IMG_0610.jpg');
     background-size: cover;
 }
 
 
 @media screen and (max-width:450px) {
     .banner-video {
-        background-image: url('images/landings.png');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url('images/IMG_0610\ -\ Copy.jpg');
         background-size: cover;
     }
 }
@@ -104,6 +104,9 @@ a{
 .navbar{
     width: 100vw !important;
 }
+.nav-link{
+    color: #fff;
+}
 
 /* navbar */
 @media screen and (max-width:992px) {
@@ -122,6 +125,7 @@ a{
 .navbar-solid{
     background-color: #E5E5E5;
 }
+
 .nav-link:hover{
     padding-bottom: 0;
     color: #665832 !important;
@@ -157,14 +161,14 @@ a{
 
 /* banner section */
 #home .banner-image {
-    background-image: url('images/IMG_0610.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/IMG_0610.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 @media screen and (max-width:450px) {
     #home .banner-image {
-        background-image: url('images/landings.png');
+        background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),url('images/IMG_0610\ -\ Copy.jpg');
         background-size: cover;
     }
 }
@@ -175,7 +179,7 @@ a{
     font-family: 'Cormorant Garamond', serif;
     font-size: 2.75rem;
     font-weight: 400;
-    color: #323232;
+    color: #fff;
 }
 .content-2{
     color: #323232;
