@@ -190,6 +190,8 @@ a{
 .mi{
     width: 45%;
     margin-left: 10rem;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 @media screen and (max-width: 1200px) {
     .mi{
@@ -252,7 +254,7 @@ a{
     padding-bottom: 2rem;
 }
 .content{
-    padding-left: 5vw;
+    /* padding-left: 5vw; */
     width: 100%;
     display: flex;
     flex-direction: column;
